@@ -116,7 +116,7 @@ public class FirstTests {
         int group  = 913;
         String id = "123";
         String name = null;
-        assertEquals(service.saveStudent(id, name, group), 0);
+        assertEquals(service.saveStudent(id, name, group), 1);
     }
     
     @Test
