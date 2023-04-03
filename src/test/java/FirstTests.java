@@ -108,7 +108,7 @@ public class FirstTests {
         int group  = 913;
         String id = "123";
         String name = "";
-        assertEquals(service.saveStudent(id, name, group), 1);
+        assertEquals(service.saveStudent(id, name, group), 1); //jkhgjkg
     }
 
     @Test
