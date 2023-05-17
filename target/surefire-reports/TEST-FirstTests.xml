@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FirstTests" time="2.326" tests="109" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Work\ssvv\target\test-classes;C:\Work\ssvv\target\classes;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\EFlocea\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\EFlocea\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Progra~1\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\EFlocea\AppData\Local\Temp\surefire2512257285817490335\surefirebooter9644565893882798730.jar C:\Users\EFlocea\AppData\Local\Temp\surefire2512257285817490335 2023-05-17T15-37-08_188-jvmRun1 surefire10106915347822388728tmp surefire_05606948655946846337tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Work\ssvv\target\test-classes;C:\Work\ssvv\target\classes;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\EFlocea\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\EFlocea\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\EFlocea\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\EFlocea"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Progra~1\AdoptOpenJDK\jdk-11.0.11.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Work\ssvv"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\EFlocea\AppData\Local\Temp\surefire2512257285817490335\surefirebooter9644565893882798730.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="user.name" value="EFlocea"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+    <property name="localRepository" value="C:\Users\EFlocea\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\EFlocea\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Work\ssvv"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Progra~1\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\dev\tools\java\maven\apache-maven-3.8.2\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Novell\iPrint;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Mozart\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files (x86)\Groovy\bin;C:\Users\EFlocea\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\EFlocea\Downloads\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin;C:\Users\EFlocea\AppData\Local\Microsoft\WindowsApps;C:\Users\EFlocea\AppData\Local\Yarn\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\EFlocea\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\EFlocea\AppData\Roaming\npm;C:\Users\EFlocea\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testWhichPassEveryTime10" classname="FirstTests" time="0.003"/>
+  <testcase name="testWhichPassEveryTime11" classname="FirstTests" time="0.026"/>
+  <testcase name="testWhichPassEveryTime12" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime13" classname="FirstTests" time="0.03"/>
+  <testcase name="testWhichPassEveryTime14" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime15" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime16" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime17" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime18" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime19" classname="FirstTests" time="0.02"/>
+  <testcase name="testWhichPassEveryTime20" classname="FirstTests" time="0.016"/>
+  <testcase name="testWhichPassEveryTime21" classname="FirstTests" time="0.015"/>
+  <testcase name="testWhichPassEveryTime22" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime23" classname="FirstTests" time="0.016"/>
+  <testcase name="testWhichPassEveryTime24" classname="FirstTests" time="0.017"/>
+  <testcase name="testWhichPassEveryTime25" classname="FirstTests" time="0.018"/>
+  <testcase name="testWhichPassEveryTime26" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime27" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime28" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime29" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime30" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime31" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime32" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime33" classname="FirstTests" time="0.025"/>
+  <testcase name="testWhichPassEveryTime34" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime35" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime36" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime37" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime38" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime39" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime40" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime41" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime42" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime43" classname="FirstTests" time="0.017"/>
+  <testcase name="testWhichPassEveryTime44" classname="FirstTests" time="0.018"/>
+  <testcase name="testWhichPassEveryTime45" classname="FirstTests" time="0.017"/>
+  <testcase name="testWhichPassEveryTime46" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime47" classname="FirstTests" time="0.025"/>
+  <testcase name="testWhichPassEveryTime48" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime49" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime50" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime51" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime52" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime53" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime54" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime55" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime56" classname="FirstTests" time="0.02"/>
+  <testcase name="testWhichPassEveryTime57" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime58" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime59" classname="FirstTests" time="0.02"/>
+  <testcase name="testWhichPassEveryTime60" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime61" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime62" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime63" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime64" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime65" classname="FirstTests" time="0.024"/>
+  <testcase name="testWhichPassEveryTime66" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime67" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime68" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime69" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime70" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime71" classname="FirstTests" time="0.02"/>
+  <testcase name="testWhichPassEveryTime72" classname="FirstTests" time="0.018"/>
+  <testcase name="testWhichPassEveryTime73" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime74" classname="FirstTests" time="0.025"/>
+  <testcase name="testWhichPassEveryTime75" classname="FirstTests" time="0.026"/>
+  <testcase name="testWhichPassEveryTime76" classname="FirstTests" time="0.028"/>
+  <testcase name="testWhichPassEveryTime77" classname="FirstTests" time="0.026"/>
+  <testcase name="testWhichPassEveryTime78" classname="FirstTests" time="0.027"/>
+  <testcase name="testWhichPassEveryTime79" classname="FirstTests" time="0.025"/>
+  <testcase name="testWhichPassEveryTime80" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime81" classname="FirstTests" time="0.026"/>
+  <testcase name="testWhichPassEveryTime82" classname="FirstTests" time="0.026"/>
+  <testcase name="testWhichPassEveryTime83" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime84" classname="FirstTests" time="0.027"/>
+  <testcase name="testWhichPassEveryTime85" classname="FirstTests" time="0.019"/>
+  <testcase name="testWhichPassEveryTime86" classname="FirstTests" time="0.017"/>
+  <testcase name="testWhichPassEveryTime87" classname="FirstTests" time="0.041"/>
+  <testcase name="testWhichPassEveryTime88" classname="FirstTests" time="0.018"/>
+  <testcase name="testWhichPassEveryTime89" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime90" classname="FirstTests" time="0.017"/>
+  <testcase name="testWhichPassEveryTime91" classname="FirstTests" time="0.02"/>
+  <testcase name="testWhichPassEveryTime92" classname="FirstTests" time="0.02"/>
+  <testcase name="testWhichPassEveryTime93" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime94" classname="FirstTests" time="0.022"/>
+  <testcase name="testWhichPassEveryTime95" classname="FirstTests" time="0.021"/>
+  <testcase name="testWhichPassEveryTime96" classname="FirstTests" time="0.014"/>
+  <testcase name="testWhichPassEveryTime97" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime98" classname="FirstTests" time="0.014"/>
+  <testcase name="testWhichPassEveryTime99" classname="FirstTests" time="0.016"/>
+  <testcase name="test_saveStudent_invalidGroupNe_negativeNumber" classname="FirstTests" time="0.023"/>
+  <testcase name="testWhichPassEveryTime0" classname="FirstTests" time="0.017"/>
+  <testcase name="testWhichPassEveryTime1" classname="FirstTests" time="0.015"/>
+  <testcase name="testWhichPassEveryTime2" classname="FirstTests" time="0.014"/>
+  <testcase name="testWhichPassEveryTime3" classname="FirstTests" time="0.014"/>
+  <testcase name="testWhichPassEveryTime4" classname="FirstTests" time="0.014"/>
+  <testcase name="testWhichPassEveryTime5" classname="FirstTests" time="0.014"/>
+  <testcase name="testWhichPassEveryTime6" classname="FirstTests" time="0.015"/>
+  <testcase name="testWhichPassEveryTime7" classname="FirstTests" time="0.015"/>
+  <testcase name="testWhichPassEveryTime8" classname="FirstTests" time="0.015"/>
+  <testcase name="testWhichPassEveryTime9" classname="FirstTests" time="0.015"/>
+  <testcase name="test_saveStudent_invalidId_idNull" classname="FirstTests" time="0.018"/>
+  <testcase name="addStudent_validStudentGroup" classname="FirstTests" time="0.019"/>
+  <testcase name="test_saveStudent_invalidGroupNe_tooBigNumber" classname="FirstTests" time="0.038"/>
+  <testcase name="test_saveStudent_invalidName_nameNull" classname="FirstTests" time="0.027">
+    <failure message="expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at FirstTests.test_saveStudent_invalidName_nameNull(FirstTests.java:120)
+]]></failure>
+    <system-out><![CDATA[Entitatea nu este valida! 
+Nume invalid! 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testWhichPassEveryTime" classname="FirstTests" time="0.023"/>
+  <testcase name="test_saveStudent_invalidName_missingName" classname="FirstTests" time="0.019">
+    <failure message="expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at FirstTests.test_saveStudent_invalidName_missingName(FirstTests.java:112)
+]]></failure>
+    <system-out><![CDATA[Entitatea nu este valida! 
+Nume invalid! 
+
+]]></system-out>
+  </testcase>
+  <testcase name="test_saveStudent_invalidId_missingId" classname="FirstTests" time="0.014"/>
+  <testcase name="addAssigment_successfully" classname="FirstTests" time="0.017"/>
+</testsuite>

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: FirstTests
+-------------------------------------------------------------------------------
+Tests run: 109, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.326 s <<< FAILURE! - in FirstTests
+test_saveStudent_invalidName_nameNull  Time elapsed: 0.027 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at FirstTests.test_saveStudent_invalidName_nameNull(FirstTests.java:120)
+
+test_saveStudent_invalidName_missingName  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at FirstTests.test_saveStudent_invalidName_missingName(FirstTests.java:112)
+
