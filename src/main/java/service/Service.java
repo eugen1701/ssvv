@@ -3,8 +3,14 @@ package service;
 import domain.*;
 import repository.*;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
 import java.time.LocalDate;
 import java.time.temporal.WeekFields;
+import java.util.Base64;
 import java.util.Locale;
 
 public class Service {
@@ -131,5 +137,14 @@ public class Service {
         Nota nota = notaXmlRepo.findOne(new Pair(idStudent, idTema));
 
         notaXmlRepo.createFile(nota);
+    }
+
+    public void anotherVulnerability2() throws IOException {
+        String encoding = Base64.getEncoder().encodeToString(("login:passwd").getBytes("UTF-8"));
+        URL url = new URL("www.center.com");
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("POST");
+        conn.setDoOutput(true);
+        conn.setRequestProperty("Authorization", "Basic " + encoding); // Noncompliant
     }
 }
